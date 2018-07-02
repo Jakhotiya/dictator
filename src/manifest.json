@@ -1,0 +1,21 @@
+{
+  "name": "Dictator",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "A chrome extension to record your actions into a JSON",
+  "permissions": [
+    "storage",
+    "webNavigation",
+      "contextMenus",
+    "tabs",
+    "*://*/"
+  ],
+  "icons":{
+    "64":"typewriter-64.png"
+  },
+  "devtools_page": "devtools.html",
+  "background": {
+    "scripts": [ "background.js" ],
+    "persistent": false
+  }
+}
